@@ -18,7 +18,7 @@
 	url = https://github.com/lama18/plugin.video.dmd-czech.aktualne.git
 [submodule "plugin.video.primaplay"]
 	path = plugin.video.primaplay
-	url = https://github.com/alladdin/plugin.video.primaplay
+	url = https://github.com/lama18/plugin.video.primaplay
 [submodule "plugin.video.stream-cinema"]
 	path = plugin.video.stream-cinema
 	url = https://github.com/bbaronSVK/plugin.video.stream-cinema

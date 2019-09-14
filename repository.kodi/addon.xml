@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.kodi"
   version="1.0.0"
-  name="Kodi CZ doplňky (lama18)"
+  name="Kodi doplňky"
   provider-name="lama18">
   <extension point="xbmc.addon.repository"
     name="repozitář">
@@ -10,9 +10,8 @@
     <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Kodi CZ doplňky (lama18)</summary>
+    <summary>Kodi doplňky</summary>
     <description>
-     Kodi CZ doplňky (lama18)
     </description>
     <platform>all</platform>
     <language>cs</language>
