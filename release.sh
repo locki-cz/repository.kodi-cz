@@ -2,7 +2,6 @@
 # taken grom xbmc-czech-sf.net
 TOOLS=$(dirname "$0")"/tools"
 
-
 BUILD_DIR=tmp
 PUBLISH_DIR=repo
 mkdir -p ${BUILD_DIR}
