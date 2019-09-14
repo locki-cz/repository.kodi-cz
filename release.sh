@@ -4,7 +4,7 @@ TOOLS=$(dirname "$0")"/tools"
 
 
 BUILD_DIR=tmp
-PUBLISH_DIR=repository-kodi
+PUBLISH_DIR=repo
 mkdir -p ${BUILD_DIR}
 
 echo "Updating addon submodules"
