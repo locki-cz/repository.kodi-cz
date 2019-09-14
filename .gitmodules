@@ -4,9 +4,6 @@
 [submodule "plugin.video.dmd-czech.stream"]
     path = plugin.video.dmd-czech.stream
     url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
-[submodule "plugin.video.dmd-czech.prima"]
-    path = plugin.video.dmd-czech.prima
-    url = https://github.com/kodi-czsk/plugin.video.dmd-czech.prima.git
 [submodule "plugin.video.dmd-czech.novaplus"]
     path = plugin.video.dmd-czech.novaplus
     url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
@@ -25,9 +22,6 @@
 [submodule "plugin.video.stream-cinema"]
     path = plugin.video.stream-cinema
     url = https://github.com/bbaronSVK/plugin.video.stream-cinema
-[submodule "metadata.bbaron"]
-    path = metadata.bbaron
-    url = https://github.com/bbaronSVK/metadata.bbaron.git
 [submodule "plugin.video.mall.tv"]
     path = plugin.video.mall.tv
     url = https://github.com/koudi/plugin.video.mall.tv.git
