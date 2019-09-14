@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.kodi"
-  version="0.0.1"
+  version="1.0.0"
   name="Kodi doplňky"
   provider-name="lama18">
   <extension point="xbmc.addon.repository"
