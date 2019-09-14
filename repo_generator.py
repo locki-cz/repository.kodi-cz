@@ -169,4 +169,4 @@ if ( __name__ == "__main__" ):
 #            print 'New Name',zipfilenamefirstpart+version+zipfilenamelastpart
             shutil.move( os.path.join(os.path.join(os.getcwd(),zipsfolder),zipfilenamefirstpart+zipfilenamelastpart),os.path.join(os.path.join(os.getcwd(),zipsfolder),zipfilenamefirstpart+version+zipfilenamelastpart))
             #,zipfilenamefirstpart+version+zipfilenamelastpart);
-            #print 'Zipping ' + zipfilename + ' and moving to ' + zipfilenamefirstpart+version
+            print 'Zipping ' + zipfilename + ' and moving to ' + zipfilenamefirstpart+version
