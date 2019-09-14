@@ -2,7 +2,7 @@
 <addons>
 <addon id="repository.kodi"
   version="1.0.0"
-  name="Kodi CZ doplňky (lama18)"
+  name="Kodi doplňky"
   provider-name="lama18">
   <extension point="xbmc.addon.repository"
     name="repozitář">
@@ -11,9 +11,8 @@
     <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Kodi CZ doplňky (lama18)</summary>
+    <summary>Kodi doplňky</summary>
     <description>
-     Kodi CZ doplňky (lama18)
     </description>
     <platform>all</platform>
     <language>cs</language>
@@ -54,7 +53,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="iPrima" version="0.4.3" provider-name="Ladislav Dokulil, Roman Smolka">
+<addon id="plugin.video.primaplay" name="iPrima" version="0.4.4" provider-name="Ladislav Dokulil, Roman Smolka, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.youtube.dl" version="14.810.0"/>
@@ -67,7 +66,6 @@
 	<description>Plugin to play videos from iPrima archive</description>
     <description lang="cs">Plugin nabízí přístup do archivu iPrima.</description>
     <platform>all</platform>
-    <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
 </addon>
 

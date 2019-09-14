@@ -4,7 +4,7 @@ TOOLS=$(dirname "$0")"/tools"
 
 
 BUILD_DIR=tmp
-PUBLISH_DIR=repo
+PUBLISH_DIR=repository-kodi
 mkdir -p ${BUILD_DIR}
 
 echo "Updating addon submodules"
@@ -90,7 +90,7 @@ python repo_generator.py
 #git stash
 #git checkout gh-pages
 mv tmp/addons.xml* repo
-./update-directory-index.sh
+#./update-directory-index.sh
 git add repo
 git commit -m 'Update metadata files'
 git checkout master
