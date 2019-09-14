@@ -1,176 +1,40 @@
 [submodule "script.module.stream.resolver"]
-	path = script.module.stream.resolver
-	url = https://github.com/kodi-czsk/script.module.stream.resolver
-[submodule "befun.cz"]
-	path = plugin.video.befun.cz
-	url = https://github.com/kodi-czsk/plugin.video.befun.cz
+    path = script.module.stream.resolver
+    url = https://github.com/kodi-czsk/script.module.stream.resolver
 [submodule "plugin.video.online-files"]
-	path = plugin.video.online-files
-	url = https://github.com/kodi-czsk/plugin.video.online-files
-[submodule "plugin.video.barrandov.tv"]
-	path = plugin.video.barrandov.tv
-	url = https://github.com/kodi-czsk/plugin.video.barrandov.tv
-[submodule "plugin.video.hejbejse.tv"]
-	path = plugin.video.hejbejse.tv
-	url = https://github.com/kodi-czsk/plugin.video.hejbejse.tv
-[submodule "plugin.video.jaksetodela.cz"]
-	path = plugin.video.jaksetodela.cz
-	url = https://github.com/kodi-czsk/plugin.video.jaksetodela.cz
-[submodule "plugin.video.joj.sk"]
-	path = plugin.video.joj.sk
-	url = https://github.com/kodi-czsk/plugin.video.joj.sk
-[submodule "plugin.video.koukni.cz"]
-	path = plugin.video.koukni.cz
-	url = https://github.com/kodi-czsk/plugin.video.koukni.cz
-[submodule "plugin.video.markiza.sk"]
-	path = plugin.video.markiza.sk
-	url = https://github.com/kodi-czsk/plugin.video.markiza.sk
-[submodule "plugin.video.mtr.sk"]
-	path = plugin.video.mtr.sk
-	url = https://github.com/kodi-czsk/plugin.video.mtr.sk
-[submodule "plugin.video.mixer.cz"]
-	path = plugin.video.mixer.cz
-	url = https://github.com/kodi-czsk/plugin.video.mixer.cz
-[submodule "plugin.video.pohadkar.cz"]
-	path = plugin.video.pohadkar.cz
-	url = https://github.com/kodi-czsk/plugin.video.pohadkar.cz
-[submodule "plugin.video.ta3.com"]
-	path = plugin.video.ta3.com
-	url = https://github.com/kodi-czsk/plugin.video.ta3.com
-[submodule "plugin.video.teevee.sk"]
-	path = plugin.video.teevee.sk
-	url = https://github.com/kodi-czsk/plugin.video.teevee.sk
-[submodule "plugin.video.tv.sosac.ph"]
-	path = plugin.video.tv.sosac.ph
-	url = https://github.com/kodi-czsk/plugin.video.tv.sosac.ph
-[submodule "plugin.video.videacesky.cz"]
-	path = plugin.video.videacesky.cz
-	url = https://github.com/kodi-czsk/plugin.video.videacesky.cz
-[submodule "plugin.video.zkouknito.cz"]
-	path = plugin.video.zkouknito.cz
-	url = https://github.com/kodi-czsk/plugin.video.zkouknito.cz
-[submodule "service.subtitles.titulky.com"]
-	path = service.subtitles.titulky.com
-	url = https://github.com/beam/service.subtitles.titulky.com
-[submodule "plugin.video.gordon.ura.cz"]
-	path = plugin.video.gordon.ura.cz
-	url = https://github.com/kodi-czsk/plugin.video.gordon.ura.cz.git
-[submodule "plugin.video.rtvs.sk"]
-	path = plugin.video.rtvs.sk
-	url = https://github.com/kodi-czsk/plugin.video.rtvs.sk
-[submodule "service.subtitles.serialzone.cz"]
-	path = service.subtitles.serialzone.cz
-	url = https://github.com/beam/service.subtitles.serialzone.cz.git
-[submodule "plugin.video.sosac.ph"]
-	path = plugin.video.sosac.ph
-	url = https://github.com/kodi-czsk/plugin.video.sosac.ph.git
-[submodule "plugin.video.sledujuserialy.cz"]
-	path = plugin.video.sledujuserialy.cz
-	url = https://github.com/kodi-czsk/plugin.video.sledujuserialy.cz.git
-[submodule "script.module.dmd-czech.common"]
-	path = script.module.dmd-czech.common
-	url = https://github.com/kodi-czsk/script.module.dmd-czech.common.git
-[submodule "plugin.video.tv.sme.sk"]
-	path = plugin.video.tv.sme.sk
-	url = https://github.com/kodi-czsk/plugin.video.tv.sme.sk.git
+    path = plugin.video.online-files
+    url = https://github.com/kodi-czsk/plugin.video.online-files
 [submodule "plugin.video.dmd-czech.stream"]
-	path = plugin.video.dmd-czech.stream
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
+    path = plugin.video.dmd-czech.stream
+    url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
 [submodule "plugin.video.dmd-czech.prima"]
-	path = plugin.video.dmd-czech.prima
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.prima.git
-[submodule "plugin.video.dmd-czech.dvtv"]
-	path = plugin.video.dmd-czech.dvtv
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.dvtv.git
-[submodule "plugin.audio.dmd-czech.play.cz"]
-	path = plugin.audio.dmd-czech.play.cz
-	url = https://github.com/kodi-czsk/plugin.audio.dmd-czech.play.cz.git
-[submodule "weather.dmd-xbmc.in-pocasi"]
-	path = weather.dmd-xbmc.in-pocasi
-	url = https://github.com/kodi-czsk/weather.dmd-xbmc.in-pocasi.git
+    path = plugin.video.dmd-czech.prima
+    url = https://github.com/kodi-czsk/plugin.video.dmd-czech.prima.git
 [submodule "plugin.video.dmd-czech.novaplus"]
-	path = plugin.video.dmd-czech.novaplus
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
+    path = plugin.video.dmd-czech.novaplus
+    url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
 [submodule "plugin.video.ivysilani"]
-	path = plugin.video.ivysilani
-	url = https://github.com/kodi-czsk/plugin.video.ivysilani.git
-[submodule "plugin.video.o2tvgo"]
-	path = plugin.video.o2tvgo
-	url = https://github.com/kodi-czsk/plugin.video.o2tvgo.git
-[submodule "plugin.video.sledujufilmy.cz"]
-	path = plugin.video.sledujufilmy.cz
-	url = https://github.com/kodi-czsk/plugin.video.sledujufilmy.cz.git
+    path = plugin.video.ivysilani
+    url = https://github.com/kodi-czsk/plugin.video.ivysilani.git
 [submodule "script.module.demjson"]
-	path = script.module.demjson
-	url = https://github.com/kodi-czsk/script.module.demjson.git
+    path = script.module.demjson
+    url = https://github.com/kodi-czsk/script.module.demjson.git
 [submodule "plugin.video.dmd-czech.aktualne"]
-	path = plugin.video.dmd-czech.aktualne
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.aktualne.git
-[submodule "plugin.video.slowtv.cz"]
-	path = plugin.video.slowtv.cz
-	url = https://github.com/kodi-czsk/plugin.video.slowtv.cz.git
+    path = plugin.video.dmd-czech.aktualne
+    url = https://github.com/lama18/plugin.video.dmd-czech.aktualne.git
 [submodule "plugin.video.primaplay"]
-	path = plugin.video.primaplay
-	url = https://github.com/alladdin/plugin.video.primaplay
-[submodule "plugin.video.sport5"]
-	path = plugin.video.sport5
-	url = https://github.com/tomkuba/plugin.video.sport5
-[submodule "plugin.video.dmd-czech.playtvak"]
-	path = plugin.video.dmd-czech.playtvak
-	url = https://github.com/72ka/plugin.video.dmd-czech.playtvak.git
-[submodule "plugin.video.dmd-czech.huste.tv"]
-	path = plugin.video.dmd-czech.huste.tv
-	url = https://github.com/jose1711/plugin.video.huste.tv.git
-[submodule "plugin.video.dmd-czech.huste"]
-	path = plugin.video.dmd-czech.huste
-	url = https://github.com/jose1711/plugin.video.huste.tv.git
+    path = plugin.video.primaplay
+    url = https://github.com/alladdin/plugin.video.primaplay
 [submodule "plugin.video.stream-cinema"]
-	path = plugin.video.stream-cinema
-	url = https://github.com/bbaronSVK/plugin.video.stream-cinema
-[submodule "plugin.video.tv.lux.sk"]
-	path = plugin.video.tv.lux.sk
-	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
+    path = plugin.video.stream-cinema
+    url = https://github.com/bbaronSVK/plugin.video.stream-cinema
 [submodule "metadata.bbaron"]
-	path = metadata.bbaron
-	url = https://github.com/bbaronSVK/metadata.bbaron.git
-[submodule "plugin.video.idnestv"]
-	path = plugin.video.idnestv
-	url = https://github.com/72ka/plugin.video.idnestv
-[submodule "plugin.video.tipsport.elh"]
-	path = plugin.video.tipsport.elh
-	url = https://github.com/JKubovy/plugin.video.tipsport.elh.git
-[submodule "plugin.video.serialhd.cz"]
-	path = plugin.video.serialhd.cz
-	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
-[submodule "metadata.csfd.cz"]
-	path = metadata.csfd.cz
-	url = https://github.com/ekarorgit/metadata.csfd.cz.git
-[submodule "plugin.image.rouming"]
-	path = plugin.image.rouming
-	url = https://github.com/jose1711/plugin.image.rouming
-[submodule "metadata.serialzone.cz"]
-	path = metadata.serialzone.cz
-	url = https://github.com/ekarorgit/metadata.serialzone.cz.git
-[submodule "plugin.video.mojevideo.sk"]
-	path = plugin.video.mojevideo.sk
-	url = https://github.com/jose1711/plugin.video.mojevideo.sk
-[submodule "plugin.video.titulkomet.cz"]
-	path = plugin.video.titulkomet.cz
-	url = https://github.com/brozikcz/plugin.video.titulkomet.cz.git
-[submodule "weather.shmu.pocasie"]
-	path = weather.shmu.pocasie
-	url = https://github.com/jose1711/weather.shmu.pocasie.git
-[submodule "skin.estuary.stream-cinema"]
-	path = skin.estuary.stream-cinema
-	url = https://github.com/Jirkoun/skin.estuary.stream-cinema.git
-[submodule "plugin.video.sl"]
-	path = plugin.video.sl
-	url = https://github.com/Sorien/plugin.video.sl.git
+    path = metadata.bbaron
+    url = https://github.com/bbaronSVK/metadata.bbaron.git
 [submodule "plugin.video.mall.tv"]
-	path = plugin.video.mall.tv
-	url = https://github.com/koudi/plugin.video.mall.tv.git
-[submodule "plugin.video.bombuj.filmyserialy"]
-	path = plugin.video.bombuj.filmyserialy
-	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
-	
-	
+    path = plugin.video.mall.tv
+    url = https://github.com/koudi/plugin.video.mall.tv.git
+[submodule "plugin.video.dmd-czech.xtv"]
+    path = plugin.video.dmd-czech.xtv
+    url = https://github.com/lama18/plugin.video.dmd-czech.xtv.git
+
