@@ -54,7 +54,7 @@ class Generator:
     def _generate_hash_file( self ):
         try:
             # create a new sha256 hash
-            m = hashlib.sha256( open( "tmp/addons.xml" ).read() ).hexdigest()
+            m = hashlib.sha256( open( "tmp/addons.xml.gz" ).read() ).hexdigest()
             # save file
             self._save_file( m, file="tmp/addons.xml.sha256" )
         except Exception, e:
