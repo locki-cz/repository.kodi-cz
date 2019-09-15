@@ -1,6 +1,7 @@
 import os
 import requests
 import urllib2
+from StringIO import StringIO
 import gzip
 import xml.etree.ElementTree as ET
 
@@ -12,8 +13,11 @@ for addon in os.listdir(os.curdir):
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
-    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').read()
-    print response
+    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz')
+    buf = StringIO(response.read())
+    f = gzip.GzipFile(fileobj=buf)
+    data = f.read()
+    print data
     #gunzip_response = gzip.GzipFile(fileobj=response)
     #released_addons = gunzip_response.read()
     #print content
