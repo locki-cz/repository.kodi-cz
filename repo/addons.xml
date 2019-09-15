@@ -254,14 +254,13 @@
 
 <addon id="repository.kodi"
         name="Kodi Doplňky repozitář"
-        version="0.0.0"
+        version="0.0.1"
         provider-name="lama18">
 
     <extension point="xbmc.addon.repository">
         <info compressed="false">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml</info>
         <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.sha256</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
-        <hashes>sha256</hashes>
     </extension>
 
     <extension point="xbmc.addon.metadata">
