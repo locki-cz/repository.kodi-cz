@@ -86,14 +86,18 @@ done
 echo "Regenerate addons.xml"
 python repo_generator.py
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 git stash
+=======
+#git stash
+>>>>>>> Stashed changes
 =======
 #git stash
 >>>>>>> Stashed changes
 #git checkout gh-pages
 mv tmp/addons.xml* repo
 #./update-directory-index.sh
-git add repo
+git add .
 git commit -m 'Update metadata files'
 git push
 #git checkout master
