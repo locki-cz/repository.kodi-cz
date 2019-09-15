@@ -16,8 +16,8 @@ def find():
     response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz')
     buf = StringIO(response.read())
     f = gzip.GzipFile(fileobj=buf)
-    data = f.read()
-    print data
+    released_addons = f.read()
+    #print data
     #gunzip_response = gzip.GzipFile(fileobj=response)
     #released_addons = gunzip_response.read()
     #print content
