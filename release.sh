@@ -9,6 +9,7 @@ echo "Updating addon submodules"
 git submodule init
 git submodule update
 git submodule foreach git pull origin master
+git pull
 
 if [ -z $1 ];
 then
