@@ -12,8 +12,8 @@ for addon in os.listdir(os.curdir):
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
-    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz')
-    print response
+    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').read()
+    print "nejake data"+response
     #gunzip_response = gzip.GzipFile(fileobj=response)
     #released_addons = gunzip_response.read()
     #print content
