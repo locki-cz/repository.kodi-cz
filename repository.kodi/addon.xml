@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.kodi" version="0.0.1" name="Kodi Doplňky" provider-name="lama18">
-    <extension point="xbmc.addon.repository" name="Kodi Doplňky">
+<addon id="repository.kodi"
+        name="Kodi Doplňky repozitář" 
+        version="0.0.1"
+        provider-name="lama18">
+        
+    <extension point="xbmc.addon.repository">
         <info compressed="false">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.md5</checksum>
+        <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.sha256</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
+        <hashes>sha256</hashes>
     </extension>
 
     <extension point="xbmc.addon.metadata">
-        <summary>Kodi Doplňky</summary>
-        <description lang="fr">Kodi Doplňky lama18</description>
         <platform>all</platform>
+        <summary>Doplňky pro Kodi</summary>
+        <description>Doplňky pro Kodi</description>
     </extension>
 </addon>

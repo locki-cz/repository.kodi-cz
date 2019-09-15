@@ -1,5 +1,5 @@
 import os
-import md5
+import hashlib
 from addons import __ADDONS__
 
 class Generator:
@@ -11,7 +11,7 @@ class Generator:
     def __init__( self ):
         # generate files
         self._generate_addons_file()
-        self._generate_md5_file()
+        self._generate_hash_file()
         # notify user
         print "Finished updating addons xml and md5 files"
 
@@ -47,15 +47,15 @@ class Generator:
         # save file
         self._save_file( addons_xml.encode( "utf-8" ), file="tmp/addons.xml" )
 
-    def _generate_md5_file( self ):
+    def _generate_sha_file( self ):
         try:
-            # create a new md5 hash
-            m = md5.new( open( "tmp/addons.xml" ).read() ).hexdigest()
+            # create a new sha256 hash
+            m = hashlib.sha256( open( "tmp/addons.xml" ).read() ).hexdigest()
             # save file
-            self._save_file( m, file="tmp/addons.xml.md5" )
+            self._save_file( m, file="tmp/addons.xml.sha256" )
         except Exception, e:
             # oops
-            print "An error occurred creating addons.xml.md5 file!\n%s" % ( e, )
+            print "An error occurred creating addons.xml.sha256 file!\n%s" % ( e, )
 
     def _save_file( self, data, file ):
         try:
