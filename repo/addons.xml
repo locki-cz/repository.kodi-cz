@@ -254,7 +254,7 @@
 
 <addon id="repository.kodi"
         name="Kodi Doplňky repozitář"
-        version="0.0.0"
+        version="0.0.1"
         provider-name="lama18">
 
     <extension point="xbmc.addon.repository">
