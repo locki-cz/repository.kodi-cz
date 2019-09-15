@@ -1,7 +1,6 @@
 import os
 import requests
 import xml.etree.ElementTree as ET
-#from addons import __ADDONS__
 
 __ADDONS__ = []
 
