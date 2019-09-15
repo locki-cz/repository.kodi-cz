@@ -1,5 +1,7 @@
 import os
 import requests
+import urllib2
+import gzip
 import xml.etree.ElementTree as ET
 
 __ADDONS__ = []
@@ -10,8 +12,13 @@ for addon in os.listdir(os.curdir):
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
-    f=gzip.open(requests.get('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').text,'rb')
-    released_addons=f.read()
+    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz')
+    print response
+    #gunzip_response = gzip.GzipFile(fileobj=response)
+    #released_addons = gunzip_response.read()
+    #print content
+    #f=gzip.open(requests.get('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').text,'rb')
+    #released_addons=f.read()
     try:
         root = ET.XML( released_addons.encode('utf-8') )
     except: # initially there are no addons.xml
