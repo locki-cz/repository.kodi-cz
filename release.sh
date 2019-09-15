@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /var/www/mendrala.io/www/kodi/
+
 TOOLS=$(dirname "$0")"/tools"
 BUILD_DIR=tmp
 PUBLISH_DIR=repo
@@ -81,7 +83,7 @@ for addonFile in $addons ; do
     rm -r $target_dir
     git add $PUBLISH_DIR/$addon_id
     git commit -m "Release $addon_id $addon_version"
-    git checkout master
+    #git checkout master
     #git stash pop
 done 
 echo "Regenerate addons.xml"
