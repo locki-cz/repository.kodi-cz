@@ -13,7 +13,7 @@ for addon in os.listdir(os.curdir):
 # released
 def find():
     response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').read()
-    print "nejake data"+response
+    print response
     #gunzip_response = gzip.GzipFile(fileobj=response)
     #released_addons = gunzip_response.read()
     #print content
