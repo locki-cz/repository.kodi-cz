@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/mendrala.io/www/kodi/
+cd /var/www/kodi/
 
 TOOLS=$(dirname "$0")"/tools"
 BUILD_DIR=tmp
