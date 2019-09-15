@@ -1,31 +1,43 @@
 [submodule "script.module.stream.resolver"]
 	path = script.module.stream.resolver
 	url = https://github.com/kodi-czsk/script.module.stream.resolver
+
 [submodule "plugin.video.dmd-czech.stream"]
 	path = plugin.video.dmd-czech.stream
 	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
+
 [submodule "plugin.video.dmd-czech.novaplus"]
 	path = plugin.video.dmd-czech.novaplus
 	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
+
 [submodule "plugin.video.ivysilani"]
 	path = plugin.video.ivysilani
 	url = https://github.com/kodi-czsk/plugin.video.ivysilani.git
+
 [submodule "script.module.demjson"]
 	path = script.module.demjson
 	url = https://github.com/kodi-czsk/script.module.demjson.git
+
 [submodule "plugin.video.dmd-czech.aktualne"]
 	path = plugin.video.dmd-czech.aktualne
 	url = https://github.com/lama18/plugin.video.dmd-czech.aktualne.git
+
 [submodule "plugin.video.primaplay"]
 	path = plugin.video.primaplay
 	url = https://github.com/lama18/plugin.video.primaplay
+
 [submodule "plugin.video.stream-cinema"]
 	path = plugin.video.stream-cinema
 	url = https://github.com/bbaronSVK/plugin.video.stream-cinema
+
 [submodule "plugin.video.mall.tv"]
 	path = plugin.video.mall.tv
 	url = https://github.com/koudi/plugin.video.mall.tv.git
+
 [submodule "plugin.video.dmd-czech.xtv"]
 	path = plugin.video.dmd-czech.xtv
 	url = https://github.com/lama18/plugin.video.dmd-czech.xtv.git
 
+[submodule "plugin.video.seznam.zpravy"]
+	path = plugin.video.seznam.zpravy
+	url = https://github.com/lama18/plugin.video.seznam.zpravy.git

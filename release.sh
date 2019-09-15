@@ -79,10 +79,11 @@ for addonFile in $addons ; do
     #git checkout gh-pages
     mkdir -p $PUBLISH_DIR/$addon_id
     mv $target_dir/* $PUBLISH_DIR/$addon_id/
-    git add $PUBLISH_DIR/$addon_id
-    git commit -m "Release $addon_id $addon_version"
-    git checkout master
-    git stash pop
+    rm -r $target_dir
+    #git add $PUBLISH_DIR/$addon_id
+    #git commit -m "Release $addon_id $addon_version"
+    #git checkout master
+    #git stash pop
 done 
 echo "Regenerate addons.xml"
 python repo_generator.py
@@ -90,8 +91,8 @@ python repo_generator.py
 #git checkout gh-pages
 mv tmp/addons.xml* repo
 #./update-directory-index.sh
-git add repo
-git commit -m 'Update metadata files'
-git checkout master
-git stash pop
+#git add repo
+#git commit -m 'Update metadata files'
+#git checkout master
+#git stash pop
 echo "Done"

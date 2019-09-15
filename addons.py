@@ -9,7 +9,8 @@ __ADDONS__ = [
     "repository.kodi",
     "plugin.video.stream-cinema",
     "plugin.video.mall.tv",
-    "plugin.video.dmd-czech.xtv"
+    "plugin.video.dmd-czech.xtv",
+    "plugin.video.seznam.zpravy"
     ]
 
 import os
@@ -20,7 +21,7 @@ from addons import __ADDONS__
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
-    released_addons = requests.get('https://raw.githubusercontent.com/lama18/repository/master/addons.xml').text
+    released_addons = open('repo/addons.xml')
     try:
         root = ET.XML( released_addons.encode('utf-8') )
     except: # initially there are no addons.xml
