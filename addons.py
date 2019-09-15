@@ -1,4 +1,4 @@
-__ADDONS__ = [
+'''__ADDONS__ = [
     "plugin.video.dmd-czech.aktualne",
     "plugin.video.dmd-czech.novaplus",
     "plugin.video.dmd-czech.stream",
@@ -11,13 +11,16 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.xtv",
     "plugin.video.seznam.zpravy",
     "repository.kodi"
-    ]
+    ]'''
 
 import os
 import requests
 import xml.etree.ElementTree as ET
-from addons import __ADDONS__
+#from addons import __ADDONS__
 
+for addon in os.listdir(os.curdir):
+    if 'plugin' in addon or 'script' in addon or 'repository' in addon:
+        __ADDONS__.append(addon)
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
