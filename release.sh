@@ -1,7 +1,6 @@
 #!/bin/bash
-# taken grom xbmc-czech-sf.net
-TOOLS=$(dirname "$0")"/tools"
 
+TOOLS=$(dirname "$0")"/tools"
 BUILD_DIR=tmp
 PUBLISH_DIR=repo
 mkdir -p ${BUILD_DIR}
@@ -10,7 +9,6 @@ echo "Updating addon submodules"
 git submodule init
 git submodule update
 git submodule foreach git pull origin master
-
 
 if [ -z $1 ];
 then
@@ -75,24 +73,24 @@ for addonFile in $addons ; do
     if [ -f "$icon" ] ; then
         cp "$icon" "$target_dir"/
     fi
-    #git stash
+    git stash
     #git checkout gh-pages
     mkdir -p $PUBLISH_DIR/$addon_id
     mv $target_dir/* $PUBLISH_DIR/$addon_id/
     rm -r $target_dir
-    #git add $PUBLISH_DIR/$addon_id
-    #git commit -m "Release $addon_id $addon_version"
-    #git checkout master
-    #git stash pop
+    git add $PUBLISH_DIR/$addon_id
+    git commit -m "Release $addon_id $addon_version"
+    git checkout master
+    git stash pop
 done 
 echo "Regenerate addons.xml"
 python repo_generator.py
-#git stash
+git stash
 #git checkout gh-pages
 mv tmp/addons.xml* repo
 #./update-directory-index.sh
-#git add repo
-#git commit -m 'Update metadata files'
-#git checkout master
-#git stash pop
+git add repo
+git commit -m 'Update metadata files'
+git checkout master
+git stash pop
 echo "Done"
