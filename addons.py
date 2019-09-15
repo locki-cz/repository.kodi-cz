@@ -18,6 +18,8 @@ import requests
 import xml.etree.ElementTree as ET
 #from addons import __ADDONS__
 
+__ADDONS__ = []
+
 for addon in os.listdir(os.curdir):
     if 'plugin' in addon or 'script' in addon or 'repository' in addon:
         __ADDONS__.append(addon)
