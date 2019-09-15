@@ -2,6 +2,7 @@
 <addons>
 <<<<<<< Updated upstream:repo/addons.xml
 <<<<<<< Updated upstream:repo/addons.xml
+<<<<<<< Updated upstream:repo/addons.xml
 <addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.2" provider-name="Petr Čermák, Štěpán Ort, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -15,6 +16,8 @@
     <description lang="cs">Aktuálně.cz - kompletní zpravodajství, zprávy z domova i ze světa</description>
     <platform>all</platform>
 =======
+=======
+>>>>>>> Stashed changes:addons.xml
 <addon id="repository.kodi"
   version="1.0.0"
   name="Kodi CZ doplňky (lama18)"
@@ -32,6 +35,9 @@
     </description>
     <platform>all</platform>
     <language>cs</language>
+<<<<<<< Updated upstream:repo/addons.xml
+>>>>>>> Stashed changes:addons.xml
+=======
 >>>>>>> Stashed changes:addons.xml
   </extension>
 </addon>

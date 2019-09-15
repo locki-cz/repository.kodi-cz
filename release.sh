@@ -87,7 +87,11 @@ echo "Regenerate addons.xml"
 python repo_generator.py
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 git stash
+=======
+#git stash
+>>>>>>> Stashed changes
 =======
 #git stash
 >>>>>>> Stashed changes
