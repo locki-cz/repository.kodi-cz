@@ -73,7 +73,7 @@ for addonFile in $addons ; do
     if [ -f "$icon" ] ; then
         cp "$icon" "$target_dir"/
     fi
-    git stash
+    #git stash
     #git checkout gh-pages
     mkdir -p $PUBLISH_DIR/$addon_id
     mv $target_dir/* $PUBLISH_DIR/$addon_id/
@@ -81,17 +81,17 @@ for addonFile in $addons ; do
     git add $PUBLISH_DIR/$addon_id
     git commit -m "Release $addon_id $addon_version"
     git checkout master
-    git stash pop
+    #git stash pop
 done 
 echo "Regenerate addons.xml"
 python repo_generator.py
-git stash
+#git stash
 #git checkout gh-pages
 mv tmp/addons.xml* repo
 #./update-directory-index.sh
-git add repo
+git add .
 git commit -m 'Update metadata files'
 git push
 git checkout master
-git stash pop
+#git stash pop
 echo "Done"
