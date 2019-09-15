@@ -233,7 +233,7 @@
 
 <addon id="plugin.video.seznam.zpravy"
        name="Seznam Zprávy"
-       version="0.9.4"
+       version="0.9.5"
        provider-name="Frantisek Barancik, BrozikCZ, PrichyM, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -246,7 +246,7 @@
     <platform>all</platform>
     <summary>Seznam Zpravy plugin</summary>
     <description>
-        www.seznam.cz/zpravy/
+        https://www.seznamzpravy.cz/
     </description>
     <source>https://github.com/lama18/plugin.video.seznam.zpravy</source>
   </extension>
