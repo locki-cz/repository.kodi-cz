@@ -233,7 +233,7 @@
 
 <addon id="plugin.video.seznam.zpravy"
        name="Seznam Zprávy"
-       version="0.9.5"
+       version="0.9.4"
        provider-name="Frantisek Barancik, BrozikCZ, PrichyM, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
