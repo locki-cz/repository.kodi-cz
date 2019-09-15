@@ -47,7 +47,7 @@ class Generator:
         # save file
         self._save_file( addons_xml.encode( "utf-8" ), file="tmp/addons.xml" )
 
-    def _generate_sha_file( self ):
+    def _generate_hash_file( self ):
         try:
             # create a new sha256 hash
             m = hashlib.sha256( open( "tmp/addons.xml" ).read() ).hexdigest()
