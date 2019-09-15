@@ -95,6 +95,7 @@ mv tmp/addons.xml* repo
 #./update-directory-index.sh
 git add repo
 git commit -m 'Update metadata files'
-git checkout master
-git stash pop
+git push
+#git checkout master
+#git stash pop
 echo "Done"

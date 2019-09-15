@@ -6,10 +6,6 @@ __ADDONS__ = [
     "plugin.video.primaplay",
     "script.module.stream.resolver",
     "script.module.demjson",
-<<<<<<< Updated upstream
-=======
-    "repository.kodi",
->>>>>>> Stashed changes
     "plugin.video.stream-cinema",
     "plugin.video.mall.tv",
     "plugin.video.dmd-czech.xtv",
