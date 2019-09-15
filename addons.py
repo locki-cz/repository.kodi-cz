@@ -17,12 +17,6 @@ def find():
     buf = StringIO(response.read())
     f = gzip.GzipFile(fileobj=buf)
     released_addons = f.read()
-    #print data
-    #gunzip_response = gzip.GzipFile(fileobj=response)
-    #released_addons = gunzip_response.read()
-    #print content
-    #f=gzip.open(requests.get('https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz').text,'rb')
-    #released_addons=f.read()
     try:
         root = ET.XML( released_addons.encode('utf-8') )
     except: # initially there are no addons.xml
