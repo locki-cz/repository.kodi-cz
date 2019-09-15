@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.kodi" version="0.0.2" provider-name="lama18">
-  <extension point="xbmc.addon.repository" name"Kodi doplňky">
+<addon id="repository.kodi" version="0.0.1"
+  name="Kodi Doplňky"
+  provider-name="lama18">
+  <extension point="xbmc.addon.repository"
+    name="Kodi Doplňky">
     <info compressed="false">https://www.mendrala.io/kodi/repo/addons.xml</info>
     <checksum>https://www.mendrala.io/kodi/repo/addons.xml.md5</checksum>
     <datadir zip="true">https://www.mendrala.io/kodi/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Kodi doplňky</summary>
-    <description>Kodi doplňky</description>
+    <summary>Kodi Doplňky</summary>
+    <description>
+    </description>
     <platform>all</platform>
+    <language>cs</language>
   </extension>
 </addon>
