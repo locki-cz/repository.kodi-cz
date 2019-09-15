@@ -1,18 +1,3 @@
-'''__ADDONS__ = [
-    "plugin.video.dmd-czech.aktualne",
-    "plugin.video.dmd-czech.novaplus",
-    "plugin.video.dmd-czech.stream",
-    "plugin.video.ivysilani",
-    "plugin.video.primaplay",
-    "script.module.stream.resolver",
-    "script.module.demjson",
-    "plugin.video.stream-cinema",
-    "plugin.video.mall.tv",
-    "plugin.video.dmd-czech.xtv",
-    "plugin.video.seznam.zpravy",
-    "repository.kodi"
-    ]'''
-
 import os
 import requests
 import xml.etree.ElementTree as ET
