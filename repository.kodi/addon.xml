@@ -8,7 +8,6 @@
         <info compressed="false">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml</info>
         <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.sha256</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
-        <hashes>sha256</hashes>
     </extension>
 
     <extension point="xbmc.addon.metadata">
