@@ -6,7 +6,7 @@ from addons import __ADDONS__
 class Generator:
     """
         Generates a new addons.xml file from each addons addon.xml file
-        and a new addons.xml.md5 hash file. Must be run from the root of
+        and a new addons.xml.sha256 hash file. Must be run from the root of
         the checked-out repo. Only handles single depth folder structure.
     """
     def __init__( self ):
@@ -14,7 +14,7 @@ class Generator:
         self._generate_addons_file()
         self._generate_hash_file()
         # notify user
-        print "Finished updating addons xml and md5 files"
+        print "Finished updating addons xml and sha256 files"
 
     def _generate_addons_file( self ):
         # final addons text
