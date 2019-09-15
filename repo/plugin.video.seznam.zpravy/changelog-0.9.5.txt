@@ -1,0 +1,2 @@
+0.9.4v2:
+Rychlejší načítání výpisů.
