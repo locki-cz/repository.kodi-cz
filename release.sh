@@ -85,7 +85,11 @@ for addonFile in $addons ; do
 done 
 echo "Regenerate addons.xml"
 python repo_generator.py
+<<<<<<< Updated upstream
 git stash
+=======
+#git stash
+>>>>>>> Stashed changes
 #git checkout gh-pages
 mv tmp/addons.xml* repo
 #./update-directory-index.sh

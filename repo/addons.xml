@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<<<<<<< Updated upstream:repo/addons.xml
 <addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.2" provider-name="Petr Čermák, Štěpán Ort, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -41,6 +42,25 @@
         Plugin na prehrávanie videí z archívu Novaplus.nova.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
+=======
+<addon id="repository.kodi"
+  version="1.0.0"
+  name="Kodi CZ doplňky (lama18)"
+  provider-name="lama18">
+  <extension point="xbmc.addon.repository"
+    name="repozitář">
+    <info compressed="false">https://raw.githubusercontent.com/lama18/repository/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/lama18/repository/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Kodi CZ doplňky (lama18)</summary>
+    <description>
+     Kodi CZ doplňky (lama18)
+    </description>
+    <platform>all</platform>
+    <language>cs</language>
+>>>>>>> Stashed changes:addons.xml
   </extension>
 </addon>
 
