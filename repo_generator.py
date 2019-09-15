@@ -46,9 +46,9 @@ class Generator:
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u"\n</addons>\n"
         # save file
-	f = gzip.open('tmp/addons.xml.gz', 'wb')
-	f.write(addons_xml.encode("utf-8"))
-	f.close()
+        f = gzip.open('tmp/addons.xml.gz', 'wb')
+        f.write(addons_xml.encode("utf-8"))
+        f.close()
         #self._save_file( addons_xml.encode( "utf-8" ), file="tmp/addons.xml" )
 
     def _generate_hash_file( self ):
