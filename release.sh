@@ -13,8 +13,6 @@ git submodule update
 git submodule foreach git pull origin master
 git pull
 
-print $1
-
 if [ -z $1 ];
 then
   echo "use -n to release addons that need it"
@@ -25,7 +23,6 @@ then
   addons=$(python addons.py | grep Addon | gawk -F' ' '{print $2}')
 else
 	addons=$1
-    print $1
 fi
 echo "Addons to be released $addons"
 echo "Cleaning up *.pyc files.."
@@ -67,10 +64,7 @@ for addonFile in $addons ; do
         rm "$package"
     fi
     zip -FS -q -r "$target_dir/$package" "$dirname" -x "*.py[oc] *.sw[onp]" ".*"
-    #cd tmp
-    #print 
     sha256sum "$target_dir/$package" | awk '{ print $1 }' > "$target_dir/$package.sha256"
-    #cd ..
 
     # copy changelog file
     changelog=$(ls "$dirname"/[Cc]hangelog.txt)

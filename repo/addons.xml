@@ -87,8 +87,8 @@
 </addon>
 
 <addon id="repository.kodi-cz"
-        name="Kodi CZ Doplňky repozitář"
-        version="0.0.9"
+        name="Kodi CZ - Repozitář doplňků"
+        version="1.0.0"
         provider-name="lama18">
 
     <extension point="xbmc.addon.repository">
@@ -100,8 +100,8 @@
 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Doplňky pro Kodi</summary>
-        <description>Doplňky pro Kodi</description>
+        <summary>České doplňky pro Kodi</summary>
+        <description>České doplňky pro Kodi</description>
     </extension>
 </addon>
 
