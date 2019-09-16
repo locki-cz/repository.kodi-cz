@@ -23,6 +23,7 @@ then
   addons=$(python addons.py | grep Addon | gawk -F' ' '{print $2}')
 else
 	addons=$1
+    print $1
 fi
 echo "Addons to be released $addons"
 echo "Cleaning up *.pyc files.."

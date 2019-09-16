@@ -88,13 +88,14 @@
 
 <addon id="repository.kodi-cz"
         name="Kodi CZ Doplňky repozitář"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="lama18">
 
     <extension point="xbmc.addon.repository">
         <info>https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.gz</info>
         <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.sha256</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/</datadir>
+        <hashes>sha256</hashes>
     </extension>
 
     <extension point="xbmc.addon.metadata">

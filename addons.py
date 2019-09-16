@@ -1,6 +1,5 @@
 import os
 import requests
-import urllib2
 import xml.etree.ElementTree as ET
 
 __ADDONS__ = []
@@ -11,8 +10,7 @@ for addon in os.listdir(os.curdir):
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
 def find():
-    response = urllib2.urlopen('https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml')
-    released_addons = response .read()
+    released_addons = requests.get('https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml').text
     try:
         root = ET.XML( released_addons.encode('utf-8') )
     except: # initially there are no addons.xml
@@ -20,6 +18,7 @@ def find():
         return __ADDONS__
     to_release = []
     for id in __ADDONS__:
+        print id
         released = root.find('addon[@id=\"%s\"]' % id)
         if released == None:
             to_release.append(id)
