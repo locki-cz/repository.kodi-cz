@@ -13,6 +13,8 @@ git submodule update
 git submodule foreach git pull origin master
 git pull
 
+print $1
+
 if [ -z $1 ];
 then
   echo "use -n to release addons that need it"
