@@ -64,9 +64,10 @@ for addonFile in $addons ; do
         rm "$package"
     fi
     zip -FS -q -r "$target_dir/$package" "$dirname" -x "*.py[oc] *.sw[onp]" ".*"
-    #cd tmp/
+    cd tmp
     #print 
-    (cd tmp && sha256sum $package) > "$target_dir/$package.sha256"
+    sha256sum $package > "$target_dir/$package.sha256"
+    cd ..
 
     # copy changelog file
     changelog=$(ls "$dirname"/[Cc]hangelog.txt)
