@@ -106,13 +106,11 @@
 </addon>
 
 <addon id="plugin.video.dmd-czech.stream"
-       name="Stream TV Archiv"
-       version="1.2.8"
-       provider-name="Jiri Vyhnalek">
+       name="Stream.cz"
+       version="1.3.0"
+       provider-name="Jiri Vyhnalek, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
-    <import addon="script.module.simplejson"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -123,15 +121,15 @@
     <summary lang="cs">Stream TV - archiv</summary>
     <summary lang="sk">Stream TV - archív</summary>
     <description>
-        Plugin to play TV video archive stream.cz
+        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z archivu stream.cz
+        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
     </description>
     <description lang="sk">
-        Plugin pre prehrávenie videí z archívu stream.cz
+        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
     </description>
-    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
+    <source>https://github.com/lama18/plugin.video.dmd-czech.stream</source>
   </extension>
 </addon>
 
