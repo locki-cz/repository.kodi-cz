@@ -66,7 +66,7 @@ for addonFile in $addons ; do
     zip -FS -q -r "$target_dir/$package" "$dirname" -x "*.py[oc] *.sw[onp]" ".*"
     #cd tmp
     #print 
-    #sha256sum $package > "$target_dir/$package.sha256"
+    sha256sum "$target_dir/$package" | awk '{ print $1 }' > "$target_dir/$package.sha256"
     #cd ..
 
     # copy changelog file
