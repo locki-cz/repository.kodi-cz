@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.kodi"
+<addon id="repository.kodi-cz"
         name="Kodi CZ Doplňky repozitář" 
         version="1.0.0"
         provider-name="lama18">
         
     <extension point="xbmc.addon.repository">
-        <info>https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.gz</info>
-        <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository/master/repo/addons.xml.sha256</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/lama18/repository/master/repo/</datadir>
+        <info>https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.gz</info>
+        <checksum verify="sha256">https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.sha256</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/</datadir>
     </extension>
 
     <extension point="xbmc.addon.metadata">
