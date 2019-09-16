@@ -59,12 +59,14 @@ for addonFile in $addons ; do
     echo "Packing $addon_id $addon_version"
 
     # make package
-    package="$target_dir/$addon_id-$addon_version.zip"
+    package="$addon_id-$addon_version.zip"
     if [ -e "$package" ] ; then
         rm "$package"
     fi
-    zip -FS -q -r "$package" "$dirname" -x "*.py[oc] *.sw[onp]" ".*"
-    sha256sum $package > "$package.sha256" | head -c 64
+    zip -FS -q -r "$target_dir/$package" "$dirname" -x "*.py[oc] *.sw[onp]" ".*"
+    #cd tmp/
+    #print 
+    #sha256sum "$package.zip" > "package.sha256"
 
     # copy changelog file
     changelog=$(ls "$dirname"/[Cc]hangelog.txt)
