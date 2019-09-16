@@ -2,10 +2,6 @@
 	path = script.module.stream.resolver
 	url = https://github.com/kodi-czsk/script.module.stream.resolver
 
-[submodule "plugin.video.dmd-czech.stream"]
-	path = plugin.video.dmd-czech.stream
-	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
-
 [submodule "plugin.video.dmd-czech.novaplus"]
 	path = plugin.video.dmd-czech.novaplus
 	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
