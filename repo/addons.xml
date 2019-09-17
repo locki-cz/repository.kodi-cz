@@ -34,7 +34,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="iPrima" version="0.4.4" provider-name="Ladislav Dokulil, Roman Smolka, wombat">
+<addon id="plugin.video.primaplay" name="iPrima" version="0.4.3" provider-name="Ladislav Dokulil, Roman Smolka, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.youtube.dl" version="14.810.0"/>
@@ -88,7 +88,7 @@
 
 <addon id="repository.kodi-cz"
         name="Kodi CZ - Repozitář doplňků"
-        version="1.0.0"
+        version="0.0.1"
         provider-name="wombat">
 
     <extension point="xbmc.addon.repository">
@@ -107,7 +107,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream.cz"
-       version="1.3.1"
+       version="1.3.0"
        provider-name="Jiri Vyhnalek, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -152,7 +152,7 @@
 
 <addon id="plugin.video.dmd-czech.xtv"
        name="XTV.cz"
-       version="1.0.6"
+       version="1.0.5"
        provider-name="wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -233,7 +233,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.3" provider-name="Petr Čermák, Štěpán Ort, wombat">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.2" provider-name="Petr Čermák, Štěpán Ort, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -250,7 +250,7 @@
 
 <addon id="plugin.video.seznam.zpravy"
        name="Seznam Zprávy"
-       version="0.9.5"
+       version="0.9.4"
        provider-name="Frantisek Barancik, BrozikCZ, PrichyM, lama18">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
