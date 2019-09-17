@@ -144,7 +144,7 @@
 
 <addon id="plugin.video.dmd-czech.xtv"
        name="XTV.cz"
-       version="1.0.6"
+       version="1.0.4"
        provider-name="wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
