@@ -13,7 +13,7 @@
 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>České doplňky pro Kodi</summary>
+        <summary>Kodi CZ repozitář doplňků</summary>
         <description>České doplňky pro Kodi</description>
     </extension>
 </addon>
