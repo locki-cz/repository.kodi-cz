@@ -37,6 +37,7 @@
 [submodule "plugin.video.seznam.zpravy"]
 	path = plugin.video.seznam.zpravy
 	url = https://github.com/lama18/plugin.video.seznam.zpravy.git
+
 [submodule "plugin.video.dmd-czech.stream"]
 	path = plugin.video.dmd-czech.stream
 	url = git@github.com:lama18/plugin.video.dmd-czech.stream.git
