@@ -2,7 +2,7 @@
 <addon id="repository.kodi-cz"
         name="Kodi CZ - Repozitář doplňků" 
         version="1.0.0"
-        provider-name="wombat">
+        provider-name="Wombat">
         
     <extension point="xbmc.addon.repository">
         <info>https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.gz</info>
