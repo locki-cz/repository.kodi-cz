@@ -144,7 +144,7 @@
 
 <addon id="plugin.video.dmd-czech.xtv"
        name="XTV.cz"
-       version="1.0.4"
+       version="1.0.6"
        provider-name="wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -158,7 +158,7 @@
     <platform>all</platform>
     <summary>XTV.cz - Nezávislá internetová televize</summary>
     <description>
-       Video doplněk pro přehrávání videí z XTV.cz
+       XTV je nezávislá internetová televize, která má ambici přinášet svým divákům rozhovory s osobnostmi českého veřejného života – jejich postoje, názory, stanoviska, argumenty i aktuální komentáře přímo do jejich počítačů či mobilních zařízení.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.xtv</source>
   </extension>
