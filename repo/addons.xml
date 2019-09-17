@@ -34,7 +34,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="iPrima" version="0.4.3" provider-name="Ladislav Dokulil, Roman Smolka, Wombat">
+<addon id="plugin.video.primaplay" name="iPrima" version="0.4.4" provider-name="Ladislav Dokulil, Roman Smolka, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.youtube.dl" version="14.810.0"/>
@@ -87,9 +87,9 @@
 </addon>
 
 <addon id="repository.kodi-cz"
-        name="Kodi CZ - Repozitář doplňků"
-        version="0.0.1"
-        provider-name="Wombat">
+        name="Kodi CZ repozitář doplňků"
+        version="1.0.0"
+        provider-name="wombat">
 
     <extension point="xbmc.addon.repository">
         <info>https://raw.githubusercontent.com/lama18/repository.kodi-cz/master/repo/addons.xml.gz</info>
@@ -100,15 +100,15 @@
 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>České doplňky pro Kodi</summary>
+        <summary>Kodi CZ repozitář doplňků</summary>
         <description>České doplňky pro Kodi</description>
     </extension>
 </addon>
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream.cz"
-       version="1.3.0"
-       provider-name="Jiri Vyhnalek, Wombat">
+       version="1.3.1"
+       provider-name="Jiri Vyhnalek, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -117,16 +117,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Stream TV video-archive plugin</summary>
-    <summary lang="cs">Stream TV - archiv</summary>
-    <summary lang="sk">Stream TV - archív</summary>
+    <summary>Stream | TelevizeSeznam.cz</summary>
     <description>
-        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
-    </description>
-    <description lang="cs">
-        Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
-    </description>
-    <description lang="sk">
         Přinášíme originální pořady a seriály z vlastní produkce. Bavte se s námi. Kdykoliv a odkudkoliv.
     </description>
     <source>https://github.com/lama18/plugin.video.dmd-czech.stream</source>
@@ -152,8 +144,8 @@
 
 <addon id="plugin.video.dmd-czech.xtv"
        name="XTV.cz"
-       version="1.0.1"
-       provider-name="Wombat">
+       version="1.0.6"
+       provider-name="wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -233,7 +225,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.0" provider-name="Petr Čermák, Štěpán Ort, Wombat">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně.cz" version="2.1.3" provider-name="Petr Čermák, Štěpán Ort, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -250,8 +242,8 @@
 
 <addon id="plugin.video.seznam.zpravy"
        name="Seznam Zprávy"
-       version="0.9.0"
-       provider-name="Frantisek Barancik, BrozikCZ, PrichyM, Wombat">
+       version="0.9.5"
+       provider-name="Frantisek Barancik, BrozikCZ, PrichyM, wombat">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson"/>
